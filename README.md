@@ -1,3 +1,4 @@
+
 # ☕ Coffee Barista Agent - Google Cloud Run & Vertex AI Integration
 
 This project demonstrates the deployment of an AI-powered Streamlit web application on **Google Cloud Run** integrated with **Vertex AI / Gemini API**.
@@ -18,7 +19,7 @@ This project demonstrates the deployment of an AI-powered Streamlit web applicat
 import streamlit as st
 import os
 
-st.set_page_config(page_title="Coffee Barista Agent", page_icon="☕")
+st.set_page_config(page_title = "Coffee Barista Agent", page_icon="☕")
 st.title("☕ Coffee Barista Agent")
 
 project_id = os.environ.get("GOOGLE_CLOUD_PROJECT", "")
@@ -40,6 +41,8 @@ COPY . .
 EXPOSE 8501
 
 CMD ["streamlit", "run", "app.py", "--server.port=8501", "--server.address=0.0.0.0"]
+
+⚡ Deployment Command
 gcloud run deploy coffee-barista \
   --source . \
   --region us-central1 \
