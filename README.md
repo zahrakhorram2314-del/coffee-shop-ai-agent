@@ -9,7 +9,7 @@ This project demonstrates the deployment of an AI-powered Streamlit web applicat
 - **Region:** `us-central1`
 - **Framework:** Streamlit + Python 3.10
 - **Containerization:** Docker
--**Direct Application Link:** `https://ai.studio/apps/3a9e0f7d-2cd0-49be-ae4a-950068206778`
+-**Direct Application Link:** `https://ai.studio/apps/3a9e0f7d-2cd0-49be-ae4a-950068206778
 ---
 
 ## 🛠️ Project Structure & Source Code
